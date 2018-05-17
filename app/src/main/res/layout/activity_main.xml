@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/room"
+    android:gravity="center">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center">
+
+
+     <Button
+        android:id="@+id/btn_1"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+         android:background="@drawable/tm"/>
+         <TextView
+             android:layout_marginTop="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="半身"
+             android:textSize="50dp"
+
+         />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_marginTop="50dp"
+            android:layout_width="70dp"
+            android:layout_height="120dp"
+            android:background="@drawable/tmm"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全身"
+            android:textSize="50dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
